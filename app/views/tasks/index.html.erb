@@ -1,0 +1,55 @@
+<div class='row'>
+  <div class='col-md-12'>
+    <div class='panel panel-default'>
+      <div class='panel-heading'>
+        <div class='pull-right btn-group'>
+          <%=
+            link_to tasks_path(archived: !@archived), class: 'btn btn-default' do
+              if @archived
+                'View Unarchived Tasks'
+              else
+                'View Archived Tasks'
+              end
+            end
+          %>
+          <%= link_to 'View README', readme_path, class: 'pull-right btn btn-default' %>
+        </div>
+        <h4>My Tasks</h4>
+      </div>
+
+      <div class='panel-body panel-action'>
+        <%= render 'form' %>
+      </div>
+
+      <div class='panel-body'>
+        <%= render 'search_form' %>
+      </div>
+
+      <table class='table table-striped'>
+        <thead>
+          <tr>
+            <th>Complete</th>
+            <th>Task</th>
+            <th>Description</th>
+            <th class='actions'></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @tasks.each do |task| %>
+            <tr>
+              <td><%= check_box_tag :complete, :complete, task.complete, onclick: 'javascript:alert("Make me work!");' %>
+              <td><%= task.title.html_safe %></td>
+              <td><%= task.description.html_safe %></td>
+              <td>
+                <%= link_to 'Edit', edit_task_path(task), class: 'btn btn-default btn-sm' %>
+                <%= link_to 'Destroy', task, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-danger btn-sm' %>
+                <%= link_to 'Archive', '', class: 'btn btn-warning btn-sm', onclick: 'javascript:alert("Make me work!")' %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

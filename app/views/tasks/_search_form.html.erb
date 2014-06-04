@@ -1,0 +1,10 @@
+<%= form_for(?:, url: tasks_path, method: :get) do |f| %>
+  <div class='form-inputs'>
+    <div class="input-group">
+      <%= f.text_field :q, name: :q, class: 'form-control' %>
+      <div class='input-group-btn'>
+        <%= f.button 'Search', name: nil, class: 'btn btn-primary' %>
+      </div>
+    </div>
+  </div>
+<% end %>

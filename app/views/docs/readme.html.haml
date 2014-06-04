@@ -1,0 +1,23 @@
+.row
+  .col-md-12
+    .panel.panel-default
+      .panel-heading
+        = link_to 'My Tasks', root_path, class: 'btn btn-default pull-right'
+        %h4 tasklist.md
+      .panel-body
+        :markdown
+          #{IO.read('tasklist.md')}
+
+    .panel.panel-default
+      .panel-heading
+        %h4 comments.md
+      .panel-body
+        :markdown
+          #{IO.read('comments.md')}
+
+    .panel.panel-default
+      .panel-heading
+        %h4 section_E.md
+      .panel-body
+        :markdown
+          #{IO.read('section_E.md')}

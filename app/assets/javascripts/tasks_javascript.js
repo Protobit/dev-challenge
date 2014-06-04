@@ -1,0 +1,1 @@
+// You can use CoffeScript in tasks.js.coffee if you'd rather.

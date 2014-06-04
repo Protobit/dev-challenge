@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+uu:
+  title: Incomplete Unarchived
+  description: Incomplet Unarchived
+  complete: false
+  archived: false
+
+cu:
+  title: Completed Unarchived
+  description: Completed Unarchived
+  complete: true
+  archived: false
+
+ua:
+  title: Incomplete Archived
+  description: Incomplete Archived
+  complete: false
+  archived: true
+
+ca:
+  title: Completed Archived
+  description: Completed Archived
+  complete: true
+  archived: true

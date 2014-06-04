@@ -1,0 +1,28 @@
+// Place all the styles related to the Tasks controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+form#new_task, form.edit_task {
+  .form-inputs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+a {
+  color: darkblue;
+
+  &:hover {
+    color: steelblue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+}
+
+.panel {
+  .panel-action {
+    background-color: #F9F9F9;
+    border-bottom: 1px solid #DDD;
+  }
+}
