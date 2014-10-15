@@ -12,7 +12,7 @@ This challenge contains a Ruby on Rails application designed to function as a si
 
 Requirements:
 
-  1. To get started follow the instructions outlined in [Cloning The Challenge](#cloning-the-challenge) below.  **DO NOT FORK** the repository. It would be a shame for another candidate to steal your work because you forked the repository.
+  1. To get started follow the instructions outlined in [Cloning The Challenge](#cloning-the-challenge) below.  **DO NOT FORK, WATCH, OR STAR** the repository. It would be a shame for another candidate to steal your work because you linked your personal challenge repository to this one.
   2. Get the TaskList Rails application up and running using whatever environment manager you prefer (or no environment management at all -- we currently use [RVM](http://rvm.io)).
   3. **Seed your development database.**  A seeds file (*db/seeds.rb*) has been prefilled with the tasks of this challenge.  Once successfully seeded, you will be able to use the TaskList web interface to view all tasks and to select which tasks you want to do.
   4. Read more about the expected application capabilities in [TaskList Description](#tasklist-description) below.
