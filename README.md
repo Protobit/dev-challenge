@@ -6,7 +6,7 @@ This document outlines the requirements of the challenge, procedures that **must
 
 ##**REQUIREMENTS**
 
-You, the candidate, are responsible for properly configuring Git, Ruby, and Ruby on Rails 4, and getting the application to run.  If you have any questions regarding specific aspects of the challenge that are unclear, please email them to terry (at) prospectwise.com.  Other questions (dev tool usage, Rails, git) will likely already be answered by the amazing community of Ruby and RoR developers that can be found on Stack Overflow and many other sites.
+You, the candidate, are responsible for properly configuring Git, Ruby on Rails 4, and getting the application to run.  If you have any concerns regarding specific questions that are unclear, please email them to terry (at)prospectwise.com.  All other questions (dev tool usage, Rails, git) will likely already be answered by the amazing community of Ruby and RoR developers that can be found on Stack Overflow and many other sites.  Please do not email us with questions specific to the implementation of the dev-challenge Rails application. The purpose of the challenge is determine your problem solving abilities.
 
 This challenge contains a Ruby on Rails application designed to function as a simple task list.  The challenge consists of a set of questions which will involve adding features, fixing styles, and various other aspects of both front-end and back-end development in Ruby on Rails.
 
@@ -39,7 +39,7 @@ Once you have completed the challenge, follow the instructions below in [Submitt
 1. To submit your challenge answers, create a free public account on Github or Bitbucket if you do not already have one.
 2. Create a public repository.
 3. Push the local TaskList Challenge repository and all changes you've made to it to the newly created public respository. 
-4. Email the repository's HTTP URL to **terry (at) prospectwise.com**.
+4. Email the repository's HTTP URL to **terry (at) prospectwise.com** and **joel (at) prospectwise.com**.
 
 Again, please **DO NOT FORK OR SUBMIT A PULL REQUEST** to the public repository.  Other candidates will subsequently have access to all of your answers.
 
